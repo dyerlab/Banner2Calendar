@@ -10,21 +10,17 @@ read_csv("2023.csv") |>
   mutate( Location = paste( BLD, ROOM) ) |>
   mutate( Location = ifelse( is.na(ROOM), NA, Location) ) -> tmp 
 
-data.frame( Subject = NA,
-            `Start Date` = NA,
-            `End Date` = NA,
-            `Start Time` = NA,
-            `End Time` = NA,
-            Description = NA,
-            Location = NA
-            ) -> schedule
+
+tribble( 
+  ~Subject, ~`Start Date`, ~`Start Time`, ~`End Date`, ~`End Time`, ~Description, ~Location 
+) -> schedule
 
 
 
 makeTime <- function( raw ) { 
   tm <- as.numeric( raw ) 
-  am.pm <- ifelse( tm > 1200, " PM"," AM")
-  corr <- ifelse( am.pm == " PM", 12, 0 )
+  am.pm <- ifelse( tm < 1200, " AM", " PM")
+  corr <- ifelse( tm > 1300, 12, 0 )
   ret <- c( floor(tm / 100) - corr,
             ":",
             str_sub(raw,-2),
@@ -33,7 +29,12 @@ makeTime <- function( raw ) {
 }
 
 
-
+makeEntry <- function( subject, date, stime, etime, desc, loc) { 
+  day <- format( date, format="%m/%d/%Y" )
+  return( tribble( 
+                ~Subject, ~`Start Date`, ~`Start Time`, ~`End Date`, ~`End Time`, ~Description, ~Location,
+                subject, day, stime, day, etime, desc, loc )   )
+}
 
 
 for( i in 1:nrow(tmp) ) { 
@@ -50,61 +51,41 @@ for( i in 1:nrow(tmp) ) {
     
     if( !is.na( tmp$MON[i]) ) { 
       schedule <- rbind( schedule, 
-                         data.frame( Subject = description,
-                                     `Start Date` = as.character(FirstMonday),
-                                     `End Date` = as.character(FirstMonday),
-                                     `Start Time` = stime,
-                                     `End Time` = etime,
-                                     Description = instructor,
-                                     Location = location )
+                         makeEntry( description,
+                                    FirstMonday,
+                                    stime, etime, instructor, location) 
                          )
     }
     
     if( !is.na( tmp$TUE[i]) ) { 
       schedule <- rbind( schedule, 
-                         data.frame( Subject = description,
-                                     `Start Date` = as.character(FirstMonday + 1),
-                                     `End Date` = as.character(FirstMonday + 1),
-                                     `Start Time` = stime,
-                                     `End Time` = etime,
-                                     Description = instructor,
-                                     Location = location )
+                         makeEntry( description,
+                                    FirstMonday+1,
+                                    stime, etime, instructor, location) 
       )
     }
     
     if( !is.na( tmp$WED[i]) ) { 
       schedule <- rbind( schedule, 
-                         data.frame( Subject = description,
-                                     `Start Date` = as.character(FirstMonday + 2),
-                                     `End Date` = as.character(FirstMonday + 2),
-                                     `Start Time` = stime,
-                                     `End Time` = etime,
-                                     Description = instructor,
-                                     Location = location )
+                         makeEntry( description,
+                                    FirstMonday+2,
+                                    stime, etime, instructor, location) 
       )
     }
     
     if( !is.na( tmp$THU[i]) ) { 
       schedule <- rbind( schedule, 
-                         data.frame( Subject = description,
-                                     `Start Date` = as.character(FirstMonday + 3),
-                                     `End Date` = as.character(FirstMonday + 3),
-                                     `Start Time` = stime,
-                                     `End Time` = etime,
-                                     Description = instructor,
-                                     Location = location )
+                         makeEntry( description,
+                                    FirstMonday+3,
+                                    stime, etime, instructor, location) 
       )
     }
     
     if( !is.na( tmp$FRI[i]) ) { 
       schedule <- rbind( schedule, 
-                         data.frame( Subject = description,
-                                     `Start Date` = as.character(FirstMonday + 4),
-                                     `End Date` = as.character(FirstMonday + 4),
-                                     `Start Time` = stime,
-                                     `End Time` = etime,
-                                     Description = instructor,
-                                     Location = location )
+                         makeEntry( description,
+                                    FirstMonday+4,
+                                    stime, etime, instructor, location) 
       )
     }
     
@@ -118,10 +99,13 @@ for( i in 1:nrow(tmp) ) {
   
 }
 
-schedule |>
+schedule %>%
+  select( Subject,`Start Date`, `Start Time`, 
+          `End Date`, `End Time`,
+          Description, Location  ) |>
   filter( !is.na(Subject) ) -> schedule
 
 View(schedule)
 
-
+write_csv( schedule, file="2023.cal.csv")
 
