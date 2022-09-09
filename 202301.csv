@@ -1,0 +1,70 @@
+TERM,PART_OF_TERM,COLLEGE,DEPT,COURSE,SECT,CRN,TYPE,MIN CREDITS,MAX CREDITS,TITLE,CROSS-LIST,MAX SIZE,ACTUAL ENROLLMENT,WAITLIST MAX,WAITLIST ACTUAL,PRIMARY INSTRUCTOR FIRST NAME,PRIMARY INSTRUCTOR LAST NAME,SECONDARY INSTRUCTOR FIRST NAME,SECONDARY INSTRUCTOR LAST NAME,START DATE,END DATE,MON-IND,TUE-IND,WED-IND,THU-IND,FRI-IND,SAT-IND,SUN-IND,BEGIN TIME,END TIME,BLD,ROOM,MODALITY CODE,MODALITY TEXT
+202310,Full Term,VCU Life Sciences,ENVS,ENVS101,1,39025,LEC,3,3,ENVIRONMENTAL STUDIES I,"Introduction to Environmental Studies I (MWF, 9-9:50am)",49,52,0,0,Daniel,Albrecht-Mallinger,,,8/23/22,12/12/22,M,,W,,F,,,900,950,HIBBS,327,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS101,2,40533,LEC,3,3,ENVIRONMENTAL STUDIES I,Introduction to Environmental Studies I (MWF 11-11:50am),40,40,0,0,Daniel,Albrecht-Mallinger,,,8/23/22,12/12/22,M,,W,,F,,,1100,1150,HIBBS,B024,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS105,1,25839,LEC,3,3,PHYSICAL GEOLOGY,ENVS 105: Physical Geology,75,45,0,0,Arif,Sikder,,,8/23/22,12/12/22,,T,,R,,,,1100,1215,OLVPH,1024,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS201,1,21935,LEC,3,3,EARTH SYSTEM SCIENCE,,150,147,0,0,Vickie,Connors,,,8/23/22,12/12/22,,T,,R,,,,1230,1345,TEMPL,1169,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS222,1,40464,LEC,1,1,ELECTRONIC PORTFOLIOS,ENVS 222 001 ELECTRONIC PORTFOLIOS 40464,150,82,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS260,1,39018,LEC,3,3,OUTDOOR LEADERSHIP,,40,26,0,0,Samuel,Albert,,,8/23/22,12/12/22,,T,,R,,,,1400,1515,TEMPL,2223,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS265,701,43468,LEC,2,2,CANCELLED,,0,0,0,0,,,,,.,.,,,,,,,,,,,,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS291,1,44374,LEC,1,1,ST: URBAN FOOD PRODUCTION,,0,13,0,0,Jonathan,Jones,,,8/23/22,12/12/22,,,,,,,,,,,,RINS,Directed Instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS300,901,30233,LEC,3,3,SUST SOCTES: JAMES RIVER BASIN,,50,50,0,0,Brian,Toibin,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS301,902,25346,LEC,3,3,INTRODUCTION TO METEOROLOGY,,24,24,0,0,John,Bernier,,,8/23/22,12/12/22,,,,R,,,,1900,2140,LFSCB,251,RONB,Hybrid-synchronous instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS310,901,21937,LEC,3,3,INTRODUCTION TO OCEANOGRAPHY,,0,14,0,0,Steven,Oden,,,8/23/22,12/12/22,M,,,,,,,1900,2140,ONLNE,,ROND,Online-synchronous instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS311,1,34188,LEC,3,3,POLITICS OF THE ENVIRONMENT,Same as POLI 311,120,69,0,0,J,Fox,,,8/23/22,12/12/22,M,,W,,F,,,1300,1350,HIBBS,203,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS314,1,43728,LEC,3,3,MAN AND ENVIRONMENT,,24,23,0,0,Salvatore,Agosta,,,8/23/22,12/12/22,,T,,R,,,,930,1045,LFSCB,253,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS321,901,41008,LEC,3,3,CARTOGRAPHY,,20,23,0,0,Lee,Carpenter,,,8/23/22,12/12/22,M,,,,,,,1600,1840,HHALL,3130,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS330,901,12717,LEC,3,3,ENVIRONMENTAL POLLUTION,Same as BIOL 332,139,70,0,0,Stephen,McIninch,,,8/23/22,12/12/22,,,W,,,,,1900,2140,LFSCB,155,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS332,901,28065,LEC,3,3,ENVIRONMENTAL MANAGEMENT,Same as URSP 332,1,1,0,0,Anna,Salzberg,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,OL,RONC,Hybrid-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS332,901,28065,LEC,3,3,ENVIRONMENTAL MANAGEMENT,Same as URSP 332,1,1,0,0,Anna,Salzberg,,,8/23/22,12/12/22,M,,,,,,,1600,1840,MCALC,1100,RONC,Hybrid-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS343,1,40844,LEC,4,4,DATA LITERACY,Environmental Data Literacy,25,25,0,0,Daniel,Albrecht-Mallinger,,,8/23/22,12/12/22,,T,,R,,,,1530,1710,LFSCB,251,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS360,1,43745,LEC,3,3,CANCELLED,,0,0,0,0,,,,,.,.,,,,,,,,,,,,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS368,901,44326,LEC,3,3,NATURE WRITING,Same as ENGL 368,24,4,0,0,Leslie,Shiel,,,8/23/22,12/12/22,M,,W,,,,,1600,1715,HIBBS,207,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS370,1,42088,LEC,3,3,APPLIC OF CONSERVATION SCIENCE,,20,9,0,0,Lesley,Bulluck,,,8/23/22,12/12/22,,T,,R,,,,930,1045,LFSCB,251,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS391,901,39032,LEC,3,3,CANCELLED,,0,0,0,0,,,,,.,.,,,,,,,,,,,,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS391,902,39442,LEC,3,3,TOP: ENERGY POLICY,,20,19,0,0,Brian,Toibin,,,8/23/22,12/12/22,M,,,,,,,1600,1840,HHALL,2107,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS421,1,37450,LEC,3,3,ENV DATA VISUALIZATION,,0,8,0,0,Jennifer,Ciminelli,,,8/23/22,12/12/22,,T,,,,,,1200,1440,LFSCB,103,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS460,1,42130,LEC,3,3,WILDERNESS FIRST RESPONDER,,20,18,0,0,Christina,Spohn,,,8/23/22,12/12/22,,,W,,,,,800,1055,,,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS491,1,42092,LEC,3,3,ST: URBAN ECOLOGY,,0,5,0,0,Catherine,Viverette,,,8/23/22,12/12/22,,,,R,,,,900,1140,LFSCB,103,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS491,2,44617,LEC,3,3,TOP: ENVS PRECEPTOR,,0,7,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,,,RINS,Directed Instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS491,901,40530,LEC,1,1,TOP:CAMPUS SUSTAINABLTY COUNCL,,0,0,0,0,Daniel,Albrecht-Mallinger,,,8/23/22,12/12/22,,T,,,,,,1900,2050,ONLNE,OL,ROND,Online-synchronous instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS492,1,12721,IND,1,1,INDEPENDENT STUDY,,0,3,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS492,2,22945,IND,2,2,INDEPENDENT STUDY,,0,0,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS492,3,12722,IND,3,3,INDEPENDENT STUDY,,0,6,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS493,1,12723,FLD,1,1,ENVIRONMNTL STUDIES INTERNSHIP,,0,0,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONF,Blended-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS493,2,22971,FLD,2,2,ENVIRONMENTL STUDIES INTERNSHP,,0,0,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONF,Blended-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS493,3,12724,FLD,3,3,ENVIRONMNTL STUDIES INTERNSHIP,,0,5,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONF,Blended-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS499,1,37451,FLD,0,0,CAPSTONE EXPERIENCE,,0,26,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS521,1,35110,LEC,3,3,INTRO TO GEOGRAPHIC INFO SCI,,18,12,0,0,Jennifer,Ciminelli,,,8/23/22,12/12/22,,T,,,,,,900,1140,LFSCB,103,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS521,901,33329,LEC,3,3,INTRO TO GEOGRAPHIC INFO SCI,,18,18,0,0,Stuart,Blankenship,,,8/23/22,12/12/22,,T,,,,,,1600,1840,LFSCB,103,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS543,2,37928,LEC,3,3,ENVIRONMENTAL DATA LITERACY,,20,7,0,0,Rodney,Dyer,,,8/23/22,12/12/22,,T,,R,,,,1230,1345,LFSCB,250,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,1,41606,LEC,3,3,TOPICS: TEACHING PRACTICUM,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RINS,Directed Instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,2,39566,LEC,3,3,TOP: APPL LANDSCAPE ECOL,,15,11,0,0,Lesley,Bulluck,,,8/23/22,12/12/22,,T,,R,,,,1400,1515,LFSCB,250,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,3,43795,LEC,4,4,TOP: APPLIED RESTORATION ECOLO,,0,8,0,0,Edward,Crawford,,,8/23/22,12/12/22,,,,R,,,,1300,1640,LFSCB,103,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,4,40843,LEC,3,3,ST: URBAN FOOD SYSTEMS,,18,11,0,0,Jonathan,Jones,,,8/23/22,12/12/22,,T,,R,,,,1100,1215,TEMPL,2226,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,5,44027,LEC,3,3,TOP:SCENIC RES POLICY & ASSESS,TOP:SCENIC RES POLICY & ASSESS - ENVS 591 005,0,7,0,0,James,Vonesh,,,8/23/22,12/12/22,,,,,F,,,1230,1630,LFSCB,103,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,5,44027,LEC,3,3,TOP:SCENIC RES POLICY & ASSESS,TOP:SCENIC RES POLICY & ASSESS - ENVS 591 005,0,7,0,0,James,Vonesh,,,8/23/22,12/12/22,M,,,,F,,,1100,1150,LFSCB,103,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,7,41005,LEC,3,3,"TOP:SOIL, SED, & ENVR POLLTN","Soil, Sediments & Environmental Pollution",5,5,0,0,Arif,Sikder,,,8/23/22,12/12/22,,T,,R,,,,1400,1515,LFSCB,150,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,11,43987,LEC,1,1,TOPICS: TEACHING PRACTICUM,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RINS,Directed Instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,12,43988,LEC,2,2,TOPICS: TEACHING PRACTICUM,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RINS,Directed Instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,901,33310,LEC,3,3,TOP: ENVIRONMENTAL ENGINEERING,,15,17,0,0,Timothy,Kelly,,,8/23/22,12/12/22,M,,,,,,,1900,2140,ONLNE,,ROND,Online-synchronous instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,903,39949,LEC,3,3,CANCELLED,,0,0,0,0,,,,,.,.,,,,,,,,,,,,ROND,Online-synchronous instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS591,905,40587,LEC,3,3,TOPICS:VA WATER QUALITY CAREER,,15,8,0,0,Joseph,Wood,,,8/23/22,12/12/22,M,,,,,,,1600,1840,ONLNE,,ROND,Online-synchronous instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS601,901,12727,LEC,3,3,SURV IN ENVIRONMENTAL STUDIES,,20,8,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,W,,,,,1600,1840,LFSCB,250,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS628,901,43726,LEC,3,3,CANCELLED,,0,0,0,0,,,,,.,.,,,,,,,,,,,,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS660,901,43727,LEC,3,3,VIRGINIA ENVIRONMENTAL LAW,,15,4,0,0,Jeter,Watson,,,8/23/22,12/12/22,,,W,,,,,1900,2140,LFSCB,116,RINP,Face-to-Face instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS691,1,43794,LEC,2,2,TOPICS: TEACHING PRACTICUM,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RINS,Directed Instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS691,2,43989,LEC,1,1,TOPICS: TEACHING PRACTICUM,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RINS,Directed Instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS691,3,43990,LEC,3,3,TOPICS: TEACHING PRACTICUM,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RINS,Directed Instruction
+202310,Full Term,VCU Life Sciences,ENVS,ENVS692,1,43789,IND,1,1,INDEPENDENT STUDY,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,OL,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS692,2,43790,IND,2,2,INDEPENDENT STUDY,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,OL,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS692,3,12733,IND,3,3,INDEPENDENT STUDY,,0,2,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS693,1,43791,FLD,1,1,INTERNSHP-ENVIRONMENTL STUDIES,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RONF,Blended-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS693,2,43792,FLD,2,2,INTERNSHP-ENVIRONMENTL STUDIES,,0,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RONF,Blended-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS693,3,12736,FLD,3,3,INTERNSHIP-ENVIRONMNTL STUDIES,,0,2,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,,,RONF,Blended-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS697,1,12737,RES,1,1,RESEARCH,,15,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS697,2,12738,RES,2,2,RESEARCH,,15,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS697,3,12739,RES,3,3,RESEARCH,,15,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS698,1,37047,MST,1,1,THESIS,,15,1,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS698,2,43793,MST,2,2,THESIS,,15,0,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,OL,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVS698,3,24286,MST,3,3,THESIS,,15,1,0,0,Daniel,McGarvey,,,8/23/22,12/12/22,,,,,,,,,,ONLNE,,RONL,Online-asynchronous instruct
+202310,Full Term,VCU Life Sciences,ENVS,ENVZ105,L52,41605,LAB,1,1,PHYSICAL GEOLOGY LABORATORY,ENVZ 105 Physical Geology Laboratory,18,17,0,0,Arif,Sikder,,,8/23/22,12/12/22,,,W,,,,,1700,1840,LFSCB,232,RINP,Face-to-Face instruction

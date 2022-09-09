@@ -4,11 +4,23 @@ library( tidyverse )
 library( lubridate )
 
 
-FirstMonday <- mdy("01-23-2023")
 
-read_csv("2023.csv") |>
+FirstMonday <- mdy("08-29-2022")
+read_csv("202301.csv") |>
+  select( TERM, COURSE, SECT, CRN, CRED = `MAX CREDITS`, 
+          TITLE, SEATS=`ACTUAL ENROLLMENT`, 
+          INSTRUCTOR = `PRIMARY INSTRUCTOR FIRST NAME`,
+          PROFESSOR = `PRIMARY INSTRUCTOR LAST NAME`,
+          MON = `MON-IND`, TUE=`TUE-IND`, WED=`WED-IND`, THU = `THU-IND`, FRI=`FRI-IND`,
+          START = `BEGIN TIME`, END = `END TIME`,
+          BLD, ROOM, MODALITY = `MODALITY CODE` ) |> 
   mutate( Location = paste( BLD, ROOM) ) |>
   mutate( Location = ifelse( is.na(ROOM), NA, Location) ) -> tmp 
+#FirstMonday <- mdy("01-23-2023")
+#read_csv("2023.csv") |>
+#  mutate( Location = paste( BLD, ROOM) ) |>
+#  mutate( Location = ifelse( is.na(ROOM), NA, Location) ) -> tmp 
+
 
 
 tribble( 
@@ -107,5 +119,5 @@ schedule %>%
 
 View(schedule)
 
-write_csv( schedule, file="2023.cal.csv")
+write_csv( schedule, file="202301.cal.csv")
 
